@@ -1,38 +1,3 @@
-Day 1 Assignment — Context Failure → Context Fix
-Agentic AI Enterprise Mastery Bootcamp · Day 1
-This project demonstrates why naive string-based LLM calls lose context across turns, and how the LangChain Messages API fixes the problem with structured SystemMessage / HumanMessage objects.
-The goal is not to print outputs — it is to understand system behavior in production.
-Project Structure
-agentic-day1/
-├── .gitignore
-├── requirements.txt
-├── README.md
-└── app.py
-Setup
-
-Clone the repository:
-
-bash   git clone https://github.com/durganuvvula/week1-assignment1.git
-   cd week1-assignment1
-
-Create and activate a virtual environment:
-
-bash   python3 -m venv env
-   source env/bin/activate          # macOS / Linux
-   # env\Scripts\activate           # Windows
-
-Install dependencies:
-
-bash   pip install -r requirements.txt
-
-Create a .env file in the project root (this file is git-ignored):
-
-   OPENAI_API_KEY=sk-...
-
-Run the script:
-
-bash   python app.py
-What the Script Demonstrates
 Day 2 Routing
 
 Agentic AI Enterprise Mastery Bootcamp · Day 2
